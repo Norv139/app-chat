@@ -1,6 +1,15 @@
+import React, {FC} from 'react'
+import { dateNow } from '../../utils/dateOption'
 import style from './style.module.css'
 
-function Message({name, text, time}){
+interface props {
+    name: string, 
+    text: string, 
+    time: string
+}
+
+function Message({name, text, time}:props): ReturnType<FC>{
+    console.log(dateNow)
     return(
         <div className={style.message}>
             

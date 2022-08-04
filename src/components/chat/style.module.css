@@ -1,0 +1,35 @@
+.message__input{
+    border-radius: 5px;
+   
+    margin: 10px;
+
+    flex-grow: 1;
+    height: 25px;
+
+    color: white;
+    background-color: rgb(74, 74, 74);
+    border: rgb(74, 74, 74);
+}
+
+.message__button{
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    height: 25px;
+    width: 25px;
+
+    color: white;
+    background-color: rgb(74, 74, 74);
+    border: rgb(74, 74, 74);
+}
+
+.message__contents{
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+
+    width: 100vw;
+
+    border-radius: 5px; 
+    background-color: rgb(49, 49, 49);
+}

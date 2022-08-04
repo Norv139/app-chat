@@ -1,8 +1,11 @@
+import React, { FC } from "react";
 import Chat from "./components/chat";
 
-function App() {
+
+
+function App(): ReturnType<FC> {
   return (
-    <main>
+    <main >
       <Chat/>
     </main>
   );
